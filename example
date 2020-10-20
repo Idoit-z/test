@@ -1,0 +1,6 @@
+import nmap
+nm = nmap.PortScanner()
+baiduIp = '180.97.33.108'
+nm.scan(baiduIp, '80')
+a = nm[baiduIp].has_tcp(80)
+print(baiduIp + "---" + str(a))
