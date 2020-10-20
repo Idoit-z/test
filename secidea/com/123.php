@@ -1,5 +1,5 @@
 """
-CompanyDomainName:secidea.com
+CompanyDomainName:secidea.com.host
 
 """
 def test():
